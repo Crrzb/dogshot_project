@@ -13,13 +13,13 @@ body {
     background-color: #cf0023;
 }
 
-#jumbotron {
+/* #jumbotron {
     background-image: url('../img/hocho_jumbotron.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-#gallery_header,#menu_header{
+#gallery_header,#menu_header,#contacto_header{
     background-color: #ff002b;
 
 }
