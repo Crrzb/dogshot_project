@@ -1,0 +1,25 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#container_nav {
+    background-color: #ff002b;
+}
+
+#container_menu {
+    background-color: #cf0023;
+}
+
+#jumbotron {
+    background-image: url('../img/hocho_jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallery_header,#menu_header{
+    background-color: #ff002b;
+
+}
