@@ -26,10 +26,14 @@
         
     </nav>
 
+
+
     <div class="container-fluid sticky-top shadow-lg border-top border-4 border-warning" id="container_menu">
         <div class="row">
             <div class="col text-center my-2">
-                <button class="btn fw-bolder text-light">Menu</button>
+                <button class="btn fw-bolder text-light">
+                    <a href="#menu_header" class="text-decoration-none text-light">Menu</a>
+                </button>
             </div>
             <div class="col text-center my-2 border-start border-right border-4 border-light border-end">
                 <button class="btn fw-bolder text-light">Contacto</button>
@@ -42,7 +46,7 @@
     </div>
 
 
-    <main>
+    <main class="bg-dark">
         <div class="container bg-light " style="height: 70vh;" id="jumbotron">
             <div class="row">
                 <div class="col text-center mt-5">
@@ -59,77 +63,21 @@
             
         </div>
 
-        <div class="container-fluid" id="gallery_header" style="height: 100px;">
+        <div class="container-fluid fixed-bottom" id="fixed_button">
             <div class="row">
-                <div class="col text-center mt-3">
-                    <h2 class="display-5 fw-bolder text-light mt-3">CHECK THIS OUT</h2>
+                <div class="col py-4 text-end pe-4">
+                    <a href="" class="btn btn-dark border-1 border-light rounded-pill btn-lg ">Ordenar</a>
                 </div>
             </div>
         </div>
 
-        <div class="container px-0 shadow-lg">
-            <div class="row text-center">
-                <div class="col-4" >
 
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
 
-                </div>
 
-                <div class="col-4" >
 
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
+        
 
-                </div>
-
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-            </div>
-
-            <div class="row mt-3 text-center">
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-            </div>
-
-            <div class="row mt-3 text-center">
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-
-                <div class="col-4" >
-
-                    <!-- <img src="img/hocho_jumbotron.jpg" alt="" style="height: 200px;"> -->
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid shadow-lg" id="menu_header" style="height: 100px;">
+        <div class="container-fluid shadow-lg border-bottom border-top border-4 border-warning header" style="height: 100px;">
             <div class="row">
                 <div class="col mt-3 text-center">
                     <h2 class="display-5 fw-bolder text-light mt-3">Menu</h2>
@@ -137,8 +85,162 @@
             </div>
         </div>
 
-        <div class="container" id="menu_container">
+        <div class="container-fluid shadow-lg mt-4 header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Promociones</h2>
+                </div>
+            </div>
+        </div>
 
+        <div class="container bg-dark" id="promociones_container">
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-3 border-1 border border-danger mt-3 px-2 mx-auto" style="max-width: 400px;">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b> 2 x 1 </b>- Platillo 1</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                                </div>
+                            </div>
+                            <div class="col-4 my-auto">
+                                <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 border-1 border border-danger mt-3 px-2 mx-auto" style="max-width: 400px;">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b> 2 x 1 </b>- Platillo 1</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                                </div>
+                            </div>
+                            <div class="col-4 my-auto">
+                                <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="text-muted">Validas hasta: <b>Domingo 13-Noviembre-2022</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid shadow-lg header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Hotchos pa' la banda</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="card mb-3 border-1 border border-danger mt-3 px-2 mx-auto" style="max-width: 400px;">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Platillo 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                        </div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card mb-3 border-1 border border-danger mt-2 px-2 mx-auto" style="max-width: 400px;">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Platillo 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                        </div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid shadow-lg header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Hotchos especiales</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="card mb-3 border-1 border border-danger mt-3 px-2 mx-auto" style="max-width: 400px;">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Platillo 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                        </div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card mb-3 border-1 border border-danger mt-2 px-2 mx-auto" style="max-width: 400px;">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Platillo 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
+                        </div>
+                    </div>
+                    <div class="col-4 my-auto">
+                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid shadow-lg header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Pa' picar</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
 
             <div class="card mb-3 border-1 border border-danger mt-3 px-2 mx-auto" style="max-width: 400px;">
                 <div class="row">
@@ -191,59 +293,35 @@
                 </div>
             </div>
 
-            <div class="card mb-3 border-1 border border-danger mt-2 px-2 mx-auto" style="max-width: 400px;">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Platillo 1</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
-                        </div>
-                    </div>
-                    <div class="col-4 my-auto">
-                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    
-                </div>
-            </div>
+        </div>
 
-            <div class="card mb-3 border-1 border border-danger mt-2 px-2 mx-auto" style="max-width: 400px;">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Platillo 1</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
-                        </div>
-                    </div>
-                    <div class="col-4 my-auto">
-                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="card mb-3 border-1 border border-danger mt-2 px-2 mx-auto" style="max-width: 400px;">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Platillo 1</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">$ 100.00 </small></p>
-                        </div>
-                    </div>
-                    <div class="col-4 my-auto">
-                        <img src="img/hocho_jumbotron.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    
+        <div class="container-fluid shadow-lg header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Aderezos de la casa & toppings</h2>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid shadow-lg" id="contacto_header" style="height: 100px;">
+        <div class="container text-light">
+            <p>Toppings</p>
+            <p>Aderezos</p>
+            <p>Aderezos de la casa</p>
+        </div>
+
+        <div class="container-fluid shadow-lg header" style="height: 50px;">
+            <div class="row">
+                <div class="col mt-2 text-center">
+                    <h2 class="display-6 fs-2 fw-bolder text-light mt-1">Pa' la sed</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <p></p>
+        </div>
+
+        <div class="container-fluid shadow-lg header" style="height: 100px;">
             <div class="row">
                 <div class="col mt-3 text-center">
                     <h2 class="display-5 fw-bolder text-light mt-3">Contacto</h2>

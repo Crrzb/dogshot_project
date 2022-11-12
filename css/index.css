@@ -18,8 +18,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } */
-
-#gallery_header,#menu_header,#contacto_header{
+.header {
     background-color: #ff002b;
+}
 
+#fixed_button {
+    z-index: 1;
+    
 }
